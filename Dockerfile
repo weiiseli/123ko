@@ -3,7 +3,7 @@ FROM alpine:edge
 ARG AUUID="a3fd89b9-a4ec-4975-8f64-9e5fea1ed7c0"
 ARG CADDYIndexPage="https://ubuntu.com/download/desktop"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
-ARG PORT=80
+ARG PORT=8080
 
 ADD etc/Caddyfile /tmp/Caddyfile
 ADD etc/xray.json /tmp/xray.json
